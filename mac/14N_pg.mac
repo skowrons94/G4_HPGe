@@ -1,0 +1,24 @@
+/run/numberOfThreads 6
+
+/control/verbose 2
+/run/verbose 2
+
+/Geometry/HPGeDetector/enable
+/Geometry/HPGeDetector/rotateY 0 deg
+
+/Geometry/HPGeDetector/position 0 0 0 mm
+
+/Geometry/TargetHolderC12/enable
+/Geometry/TargetHolderC12/target evaporated
+/Geometry/TargetHolderC12/position 0 0 -20 mm
+
+/run/initialize
+
+/PrimaryGenerator/select GammaDecayScheme
+/PrimaryGenerator/GammaDecayScheme/position xxx yyy -2.1 cm
+/PrimaryGenerator/GammaDecayScheme/levelFile data/15O.txt
+/PrimaryGenerator/GammaDecayScheme/excitedState 7567 keV
+
+/run/setFileName 14N_pg_xxx_yyy.root
+
+/run/beamOn 1000000

@@ -1,0 +1,11 @@
+// Level data for 12C(p,g)13N
+//
+// Data from NNDC
+//
+
+State 2324
+  0
+100
+
+State 0
+end

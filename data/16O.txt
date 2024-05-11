@@ -1,0 +1,11 @@
+// Level data for 19F(p,a)16O
+//
+// Data from NNDC
+//
+
+State 6130
+  0
+100
+
+State 0
+end
