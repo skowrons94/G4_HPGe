@@ -20,11 +20,6 @@ for x in xbins:
         # Wait for 2 seconds
         subprocess.run(["sleep", "2"])
 
-        # Sample y from a uniform distribution between -3 and 3
-        x = np.random.uniform(-3, 3)
-        # Sample z from a uniform distribution between -3 and 3
-        y = np.random.uniform(-3, 3)
-
         with open(file, 'r') as f:
             lines = f.readlines()
             for i, line in enumerate(lines):
