@@ -55,7 +55,7 @@ private:
     G4ThreeVector m_position; // position of primary vertex
     G4ThreeVector m_position_rand; // position of primary vertex
 
-    G4double beam_sigma = 6 * mm;
+    G4double beam_sigma = 1 * mm;
 
     TRandom* rand;
     G4double theta;

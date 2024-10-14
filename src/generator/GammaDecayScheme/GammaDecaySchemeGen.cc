@@ -68,7 +68,7 @@ void GammaDecaySchemeGen::GeneratePrimaries(G4Event* anEvent)
     offsetY = offset*std::sin( theta ) * mm;
 
     m_position_rand.setX( m_position.getX( ) + offsetX );
-    m_position_rand.setY( m_position.getX( ) + offsetY );
+    m_position_rand.setY( m_position.getY( ) + offsetY );
     m_position_rand.setZ( m_position.getZ( ) );
     
     auto *primaryVertex = new G4PrimaryVertex( m_position_rand, 0 ); // t = 0.0
