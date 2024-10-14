@@ -38,5 +38,5 @@ for x in xbins:
         # Get source name from file
         source = file.split("/")[-1].split(".")[0]
 
-        subprocess.run(["./G4_HPGe", "mac/run.mac"], timeout=600)
+        subprocess.run(["./G4_HPGe", "mac/run.mac"])
         subprocess.run(["mv", "sim.root", "{}_{}_{}.root".format(source, x, y)])
